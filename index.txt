@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Button Smashers Charity Stream
+    </title>
+
+    <style>
+    div {
+      margin:auto;
+      text-align: center;
+      width:1500px;
+    }
+    .donate{
+      display: inline;
+    }
+
+    body {
+      background-color: #C0E98D;
+    }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheet.css">
+
+    <script>
+
+    </script>
+  </head>
+  <body>
+      <div id='backdrop'>
+        <!--- Header image --->
+        <img src="banner.jpg"/>
+        <br>
+
+        <!-- Navigation Bar -->
+        <a href="index.html"> <img src="homeButton.png"> </a>
+        <a href="schedule.html"> <img src="scheduleButton.png"> </a>
+        <a href="bios.html"> <img src="bioButton.png"> </a>
+        <a href="aboutUs.html"> <img src="aboutUsButton.png"> </a>
+        <br>
+        <br>
+
+        <!-- Twitch Stream -->
+        <iframe
+            src="http://player.twitch.tv/?channel=buttonsmashers_charity"
+            height="720"
+            width="1080"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen="true">
+
+        </iframe>
+        <!-- Twitch Chat -->
+        <iframe
+          frameborder="0"
+          scrolling="no"
+          id="chat_embed"
+          src="http://www.twitch.tv/buttonsmashers_charity/chat"
+          height="720"
+          width="410">
+
+        </iframe>
+        <div class="donate">
+          <img src="Donate.jpg" style="display: inline-block;"/>
+        </div>
+        <!-- Child's Play Donation Widget -->
+        <div class="donate">
+          <script src="https://donate.childsplaycharity.org/js/widget.min.js" data-event="7959e4ce676d5c1992b4a4e8782cd273">
+          </script>
+        </div>
+
+      </div>
+  </body>
+</html>
